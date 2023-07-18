@@ -8,6 +8,7 @@
     color:  #FF42A5
 }
 /* shared related style end */
+
 /* header related style start */
 
 /* nav related style start */
@@ -46,13 +47,7 @@ ul > li{
     list-style: none;
     margin-left:15px ;
 }
-/* .bg-color{
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    width: 262px;
-    height: 56px;
 
-} */
 .special-nav{
     display: flex;
     align-items:center ;
@@ -66,6 +61,22 @@ ul > li{
 }
 .special-nav > li{
     margin-left: 22px;
+}
+/* nav related style end */
+
+/* banner related style start */
+.head-banner-bg-container{
+    
+    background-image: url(../images/Group\ 14.png) , linear-gradient(223deg, rgba(255, 255, 255, 0.03) 0%, #f679e500 100%);
+    background-repeat:overlay;
+    background-blend-mode:darken;
+    max-width: 800px;
+    height: 700px;
+    position: relative;
+    
+}
+.head-banner-text-container{
+    position: absolute; right: 280px; bottom:300px;
 }
 
 
