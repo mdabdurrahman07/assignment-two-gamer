@@ -101,7 +101,7 @@ ul > li{
 
 
 
-/* media query */
+/* media query for mobile */
 
 
 @media screen and (max-width: 576px) {
@@ -127,7 +127,37 @@ ul > li{
         margin-bottom: 30px;
     }
     .special-nav{
-        margin: 0px
+        margin: 0px;
+    }
+   
+}
+
+
+
+
+
+
+
+/* media query for tablet */
+
+@media screen and (min-width: 576px) and (max-width:960px) {
+    nav{
+        flex-direction: row;
+        max-width: 100%;
+        gap: 10px;
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+        
+        
+    }
+    .menu-container > ul{
+        flex-direction: row;
+        text-align: center;
+        
+    }
+    .special-nav{
+        margin-left: 8px;
     }
    
 }
