@@ -67,3 +67,67 @@ ul > li{
 .special-nav > li{
     margin-left: 22px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        width: 80%;
+       margin: 50px auto;
+        gap: 10px;
+        box-shadow: none;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        
+    }
+    .menu-container > ul{
+        flex-direction: column;
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+        align-items: center;
+    }
+    .menus > li{
+        margin-bottom: 30px;
+    }
+    .special-nav{
+        margin: 0px
+    }
+   
+}
