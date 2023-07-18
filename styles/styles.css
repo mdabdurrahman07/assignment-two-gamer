@@ -66,6 +66,12 @@ ul > li{
 
 /* banner related style start */
 .head-banner-bg-container{
+    width: 50%;
+}
+.head-banner-img-container{
+    width: 50%;
+}
+.head-banner-bg-container{
     
     background-image: url(../images/Group\ 14.png) , linear-gradient(223deg, rgba(255, 255, 255, 0.03) 0%, #f679e500 100%);
     background-repeat:overlay;
@@ -137,6 +143,10 @@ ul > li{
     margin-top: 10px;
     margin-left: 10px;
     
+}
+.head-section-banner-container{
+    display: flex;
+    gap: 100px;
 }
 
 
