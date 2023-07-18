@@ -149,8 +149,50 @@ ul > li{
 .banner-second-img{
     margin-top: 15px;
 }
+/* banner related style end */
 
+/* main related style start */
 
+/* online games related style start */
+
+.online-game-box-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+
+}
+.online-games-section-container{
+    width: 80%;
+    margin: 50px auto;
+}
+.online-game-text-container{
+    text-align: center;
+}
+.game-section-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.game-section-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.special-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
 
 
 
@@ -237,6 +279,14 @@ ul > li{
         padding: 14px 20px;
         font-size: 0.9rem;
     }
+    .online-game-box-container{
+        grid-template-columns: 1fr;
+    }
+   .box-text{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+   }
     
    
 }
@@ -291,5 +341,15 @@ ul > li{
         padding: 14px 20px;
         font-size: 0.9rem;
     }
+    .online-game-box-container{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 10px;
+    }
+   .box-text{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    
+   }
    
 }
