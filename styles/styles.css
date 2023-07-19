@@ -173,7 +173,7 @@ ul > li{
 }
 .online-games-section-container{
     width: 80%;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 .online-game-text-container{
     text-align: center;
@@ -183,6 +183,7 @@ ul > li{
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 16px;
+    margin-top: -200px;
 }
 .game-section-description{
     color: #534C64;
