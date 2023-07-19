@@ -78,19 +78,26 @@ ul > li{
     background-blend-mode:darken;
     max-width: 800px;
     height: 700px;
-    position: relative;
+    
 }
 
 .head-banner-text-container{
-    position: absolute; left: 150px; bottom:300px;
-}
+   
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       bottom: 600px; left: 200px;
+       
+     }
+
 .banner-title-one{
     color: #0B0223;
     text-align: center;
     font-size: 3rem;
     font-weight: 600;  
     text-transform: uppercase;
-    padding-bottom:3px ;
+    padding-bottom:10px ;
 }
 .special-banner-title{
       text-align: center;
@@ -467,12 +474,13 @@ font-weight: 500;
         flex-direction: column-reverse;
     }
     .banner-img-one , .banner-second-img{
-        width: 420px;
-        height: 400px;
-        
+        max-width: 420px;
+        height: 500px;
     }
     .head-banner-text-container{
-        position: absolute; left: 65px; bottom:-680px;
+        position: relative;
+        bottom: 400px;
+        left: 70px;
     }
     .banner-title-one{
         font-size: 2rem;
@@ -637,7 +645,9 @@ font-weight: 500;
         
     }
     .head-banner-text-container{
-        position: absolute; left: 40px; bottom:190px;
+       position: relative;
+       bottom: 350px;
+       left: 25px;
     }
     .banner-title-one{
         font-size: 2rem;
