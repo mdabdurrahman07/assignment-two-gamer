@@ -153,7 +153,7 @@ ul > li{
 
 /* main related style start */
 
-/* online games related style start */
+/* online games card related style start */
 
 .online-game-box-container{
     display: grid;
@@ -193,10 +193,94 @@ ul > li{
     font-weight: 700;
 
 }
+/* online games card related style end */
+
+/* instantly play games related style start */
+.play-games-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.play-games-text-container h1{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+}
+.color-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.play-games-text-container p{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.main-img{
+    position: relative;bottom: -75px; left: 180px;
+    
+}
+/* instantly play games related style end */
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hover Effect related style start */
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+.hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 342px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+
+}
+.card:hover .hover-content{
+    opacity: 1;
+}
+.hover-content i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #FFF;
+
+}
+.hover-content p{
+    font-size: 14px;
+    font-weight: bold;
+  }
 
 
 
@@ -287,9 +371,34 @@ ul > li{
     margin-top: 12px;
     margin-bottom: 15px;
    }
+   .play-games-container{
+    flex-direction: column;
+   }
+   .bottom-img{
+    width: 100%;
+    height: auto;
+   }
+   .main-img{
+    width: 40%;
+    height: auto;
+    position: relative;bottom: -365px; left: -30px;
+   }
+   .play-games-container{
+    max-width: 80%;
+    margin: 30px auto;
+   }
+   .play-games-text-container h1{
+    text-align: center;
+   }
+   .play-games-text-container p{
+    text-align: center;
+   }
+
+  
     
-   
 }
+
+
 
 
 
@@ -350,6 +459,28 @@ ul > li{
     margin-top: 12px;
     margin-bottom: 15px;
     
+   }
+   .play-games-container{
+    flex-direction: column;
+   }
+   .bottom-img{
+    width: 100%;
+    height: auto;
+   }
+   .main-img{
+    width: 40%;
+    height: auto;
+    position: relative;bottom: -670px; left: -70px;
+   }
+   .play-games-container{
+    max-width: 80%;
+    margin: 30px auto;
+   }
+   .play-games-text-container h1{
+    text-align: center;
+   }
+   .play-games-text-container p{
+    text-align: center;
    }
    
 }
